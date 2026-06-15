@@ -1,8 +1,20 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f7fbff;
+  --foreground: #061b31;
+  --asms-navy: #061b31;
+  --asms-ink: #0d253d;
+  --asms-blue: #2563eb;
+  --asms-blue-deep: #1c3f94;
+  --asms-teal: #14b8a6;
+  --asms-mint: #dffcf5;
+  --asms-surface: #ffffff;
+  --asms-soft: #eef6ff;
+  --asms-muted: #64748d;
+  --asms-border: #dbeafe;
+  --asms-shadow: rgba(50, 50, 93, 0.18) 0px 30px 45px -30px,
+    rgba(15, 23, 42, 0.12) 0px 18px 36px -18px;
 }
 
 @theme inline {
@@ -12,15 +24,94 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  font-feature-settings: "ss01";
+}
+
+body {
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a,
+button,
+input,
+textarea {
+  transition-property: color, background-color, border-color, transform, box-shadow;
+  transition-duration: 200ms;
+}
+
+::selection {
+  background: rgba(20, 184, 166, 0.24);
+  color: var(--asms-navy);
+}
+
+.asms-container {
+  margin-inline: auto;
+  max-width: 80rem;
+  padding-inline: 1rem;
+}
+
+@media (min-width: 640px) {
+  .asms-container {
+    padding-inline: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .asms-container {
+    padding-inline: 2rem;
+  }
+}
+
+.asms-card-shadow {
+  box-shadow: var(--asms-shadow);
+}
+
+.asms-grid-bg {
+  background-image:
+    linear-gradient(rgba(37, 99, 235, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 99, 235, 0.07) 1px, transparent 1px),
+    radial-gradient(circle at 20% 20%, rgba(20, 184, 166, 0.18), transparent 26rem),
+    radial-gradient(circle at 85% 10%, rgba(37, 99, 235, 0.18), transparent 28rem);
+  background-size: 44px 44px, 44px 44px, auto, auto;
+}
+
+.asms-glass {
+  border: 1px solid rgba(219, 234, 254, 0.75);
+  background: rgba(255, 255, 255, 0.74);
+  box-shadow: var(--asms-shadow);
+  backdrop-filter: blur(18px);
+}
+
+.asms-dark-glass {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: rgba(2, 6, 23, 0.28) 0px 24px 70px -32px;
+  backdrop-filter: blur(18px);
+}
+
+.asms-gradient-text {
+  background: linear-gradient(110deg, #061b31 0%, #2563eb 50%, #14b8a6 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.asms-orb {
+  position: absolute;
+  pointer-events: none;
+  border-radius: 9999px;
+  filter: blur(52px);
+  opacity: 0.68;
 }
