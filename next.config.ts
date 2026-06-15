@@ -3,7 +3,6 @@ import path from "node:path";
 
 const nextConfig: NextConfig = {
   allowedDevOrigins: ["192.168.100.31"],
-  distDir: ".next-fresh",
   turbopack: {
     root: path.resolve(__dirname),
   },
