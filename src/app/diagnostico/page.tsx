@@ -15,9 +15,9 @@ export default function DiagnosticoPage() {
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
           <div className="relative space-y-7">
             <Link href="/conceitos" className="text-sm font-semibold text-teal-700">← Ver conceitos</Link>
-            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-teal-700">Direção 03 · Diagnóstico Estratégico</p>
-            <h1 className="text-5xl font-light leading-[0.98] tracking-[-0.06em] sm:text-7xl">Antes de crescer, a clínica precisa enxergar onde perde valor.</h1>
-            <p className="max-w-2xl text-lg font-light leading-8 text-slate-700">Uma landing em formato de assessment para vender a consultoria como processo de leitura, clareza e tomada de decisão.</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-teal-700">Layout 03 · Funnel Diagnóstico</p>
+            <h1 className="text-5xl font-light leading-[0.98] tracking-[-0.06em] sm:text-7xl">Mais estrutura, autoridade e direção para clínicas que precisam crescer melhor.</h1>
+            <p className="max-w-2xl text-lg font-light leading-8 text-slate-700">A mesma proposta organizada como funil: sintomas, score, diagnóstico, método e chamada para conversa estratégica.</p>
             <a href="#diagnostico" className="inline-flex rounded-xl bg-teal-700 px-6 py-3 font-semibold text-white shadow-xl shadow-teal-900/15">Entender diagnóstico</a>
           </div>
 

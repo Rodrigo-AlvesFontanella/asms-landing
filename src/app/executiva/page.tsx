@@ -22,9 +22,9 @@ export default function ExecutivaPage() {
         <div className="relative mx-auto grid max-w-7xl gap-12 lg:grid-cols-[1fr_0.9fr] lg:items-center">
           <div className="space-y-7">
             <Link href="/conceitos" className="text-sm font-semibold text-sky-300">← Ver conceitos</Link>
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-sky-300">Direção 02 · Executiva B2B</p>
-            <h1 className="text-5xl font-light leading-[0.98] tracking-[-0.06em] sm:text-7xl">Uma narrativa para decisores, parceiros e crescimento institucional.</h1>
-            <p className="max-w-2xl text-lg font-light leading-8 text-slate-300">Versão objetiva para mostrar capacidade consultiva, frentes de atuação e maturidade comercial em reuniões estratégicas.</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-sky-300">Layout 02 · Editorial Premium</p>
+            <h1 className="text-5xl font-light leading-[0.98] tracking-[-0.06em] sm:text-7xl">Mais estrutura, autoridade e direção para clínicas que precisam crescer melhor.</h1>
+            <p className="max-w-2xl text-lg font-light leading-8 text-slate-300">A mesma landing em composição editorial: blocos amplos, contraste executivo e leitura mais institucional para valorizar a autoridade da consultoria.</p>
           </div>
           <div className="rounded-[2rem] border border-white/10 bg-white/[0.07] p-5 shadow-2xl shadow-black/30 backdrop-blur">
             <div className="rounded-3xl bg-white p-6 text-[#07111f]">

@@ -18,9 +18,9 @@ export default function PremiumPage() {
         <div className="mx-auto grid max-w-7xl gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <div className="space-y-8">
             <Link href="/conceitos" className="text-sm font-semibold text-teal-700">← Ver conceitos</Link>
-            <span className="inline-flex rounded-full border border-[#172033]/10 bg-white/70 px-4 py-2 text-sm font-medium">Direção 01 · Premium Saúde</span>
-            <h1 className="text-5xl font-light leading-[0.98] tracking-[-0.06em] sm:text-7xl">Uma presença institucional à altura da experiência da consultoria.</h1>
-            <p className="max-w-2xl text-xl font-light leading-9 text-slate-700">Para clínicas e consultórios que precisam parecer mais maduros, confiáveis e desejáveis diante de pacientes, parceiros e mercado.</p>
+            <span className="inline-flex rounded-full border border-[#172033]/10 bg-white/70 px-4 py-2 text-sm font-medium">Layout 01 · Split Dashboard</span>
+            <h1 className="text-5xl font-light leading-[0.98] tracking-[-0.06em] sm:text-7xl">Mais estrutura, autoridade e direção para clínicas que precisam crescer melhor.</h1>
+            <p className="max-w-2xl text-xl font-light leading-9 text-slate-700">A mesma proposta da landing principal em composição split: narrativa consultiva de um lado e síntese estratégica visual do outro.</p>
             <div className="flex flex-col gap-3 sm:flex-row">
               <a href="#contato" className="rounded-xl bg-teal-700 px-6 py-3 text-center font-semibold text-white shadow-xl shadow-teal-900/15">Conversar sobre posicionamento</a>
               <a href="#metodo" className="rounded-xl border border-[#172033]/15 bg-white/50 px-6 py-3 text-center font-semibold">Conhecer método</a>
