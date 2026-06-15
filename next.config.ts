@@ -1,10 +1,11 @@
+import type { NextConfig } from "next";
 import path from "node:path";
 
-import type { NextConfig } from "next";
-
 const nextConfig: NextConfig = {
+  allowedDevOrigins: ["192.168.100.31"],
+  distDir: ".next-fresh",
   turbopack: {
-    root: path.join(__dirname),
+    root: path.resolve(__dirname),
   },
 };
 
